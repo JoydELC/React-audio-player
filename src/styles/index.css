@@ -1,0 +1,90 @@
+body {
+    margin-top: 12rem;
+    margin-left:40%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #274848;
+    display: flex;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .audio-player {
+    background-color: #787A7A;
+    padding:3rem;
+    border-radius: 1rem;
+    box-shadow:  10px 5px 5px black;
+    width: 25rem;
+  }
+  .audio-info {
+    display: flex;
+    flex-direction: row;
+  
+  }
+.text{
+align-self: center;
+padding: 1rem;
+color: white;
+}
+.audio-image img{
+  border: 1px solid #f50;
+  border-radius: 4px;
+  padding: 1px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.audio-image img:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.title {
+  font-weight: bold;
+  color: white;
+}
+.controls-wrapper{
+  padding-top: 0.1rem;
+  display: flex;
+  flex-direction: row;
+}
+.volume{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-left: 1rem;
+  padding: 0.25rem;
+  border-radius: 2rem;
+}
+.volume :first-child{
+ border-radius: 50%;
+ border-color: #f50;
+}
+.volume :first-child:hover {
+  background-color: #f50; 
+  color: white; 
+}
+.controls {
+  align-self: center;
+}
+.controls button:hover {
+  background-color: #f50; 
+  color: white;   
+}
+.progress{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 1rem;
+}
+.progress span{
+  font-weight: bold;
+  color:white;
+  padding: 0.1rem;
+  margin: 0.5rem;
+}
